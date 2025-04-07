@@ -31,7 +31,7 @@ public class DataHelper {
     }
 
     public static int generateInvalidBalance(int balance) {
-        return Math.abs(balance) * 2;
+        return Math.abs(balance) + 1;
     }
 
     @Value
